@@ -1,9 +1,10 @@
+#define _GNU_SOURCE
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 #include<unistd.h>
 #include<sys/wait.h>
-
+#include<sys/types.h>
 #define MAXLENGTH 100   // max number of characters to be supported
 #define MAXCOM 100      // max number of commands to be supported
 
