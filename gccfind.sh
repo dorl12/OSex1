@@ -18,7 +18,6 @@ if [ "$3" == "-r" ]; then
   # shellcheck disable=SC2044
   for FILE in $(find ./ -type f); do
     if [[ "$FILE" == *.c ]] && grep -q -i -w "$2" "$FILE"; then
-      #gcc -w -g3 -o3 "$FILE" -o "${FILE%.c}".out;
       gcc -w -o "${FILE%.c}".out "$FILE"
     fi
   done
