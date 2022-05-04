@@ -16,12 +16,12 @@ typedef struct historyStruct
 
 void setArgs(int argc, char *argv[]) {
     char* path = getenv("PATH");
-    printf("%s\n", path);
+//    printf("%s\n", path);
     for(int i = 1; i < argc; i++) {
         strcat(path, ":");
         strcat(path, argv[i]);
     }
-    printf("%s\n", path);
+//    printf("%s\n", path);
     setenv("PATH", path, 1);
 //    //    old path + ":" + "/0"
 //    int size = strlen(getenv("PATH")) + 2;
