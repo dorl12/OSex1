@@ -1,5 +1,5 @@
 #!/bin/bash
-# Dor Levy 313547085
+#Dor Levy 313547085
 
 points_player_1="50"
 points_player_2="50"

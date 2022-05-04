@@ -1,5 +1,5 @@
 #!/bin/bash
-# Dor Levy 313547085
+#Dor Levy 313547085
 
 if [ "$1" == "" ] || [ "$2" == "" ]; then
   echo "Not enough parameters"
